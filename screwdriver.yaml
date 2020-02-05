@@ -11,10 +11,10 @@ jobs:
             - step4:  sleep 5 && echo ok
             - step5:  sleep 5 && echo ok
             - step6:  sleep 5 && echo ok
-            - step7:  sleep 5 && echo ok
+            - step7: echo failed && exit
             - step8:  sleep 5 && echo ok
             - step9:  sleep 5 && echo ok
-            - step10: sleep 5 && echo ok
+            - step10: thereisnowaythisommandexists
             - step11: sleep 5 && echo ok
             - step12: sleep 5 && echo ok
             - step13: sleep 5 && echo ok
